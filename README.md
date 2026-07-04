@@ -317,7 +317,7 @@ README
 ```markdown
 ## Login
 
-<img width="1910" height="915" alt="image" src="https://github.com/user-attachments/assets/d193a2c2-4187-44a5-9bac-766d099eaf25" />
+
 
 
 ## Dashboard
@@ -336,7 +336,7 @@ README
 
 ## Charts
 
-<img width="1600" height="1454" alt="WhatsApp Image 2026-07-03 at 1 12 08 PM" src="https://github.com/user-attachments/assets/f8a8598a-d997-43c5-9b10-ba48d1dddd19" />
+<img width="1600" height="1454" alt="WhatsApp Image 2026-07-03 at 1 12 08 PM" src="https://github.com/user-attachments/assets/03fb6512-61a4-4f73-96f5-46de1186f62b" />
 
 
 
