@@ -312,11 +312,10 @@ chart.png
 report.png
 ```
 
-README
 
-```markdown
 ## Login
 
+<img width="1910" height="915" alt="msedge_2HqDN7GDkn" src="https://github.com/user-attachments/assets/8a97a99d-e521-430d-9a47-385fa100db47" />
 
 
 
@@ -334,7 +333,7 @@ README
 <img width="1600" height="1331" alt="WhatsApp Image 2026-07-03 at 1 09 36 PM" src="https://github.com/user-attachments/assets/51b56bcf-1913-4f3f-9aab-3dcd54b3adfa" />
 
 
-## Charts
+# Charts
 
 <img width="1600" height="1454" alt="WhatsApp Image 2026-07-03 at 1 12 08 PM" src="https://github.com/user-attachments/assets/03fb6512-61a4-4f73-96f5-46de1186f62b" />
 
