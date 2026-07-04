@@ -317,30 +317,29 @@ README
 ```markdown
 ## Login
 
-![Login](images/login.png)
+<img width="1910" height="915" alt="image" src="https://github.com/user-attachments/assets/d193a2c2-4187-44a5-9bac-766d099eaf25" />
+
 
 ## Dashboard
 
-![Dashboard](images/dashboard.png)
+<img width="1910" height="915" alt="image" src="https://github.com/user-attachments/assets/11cddbef-4682-4be3-a960-b3f330fb8df9" />
+
 
 ## SQL Generation
 
-![SQL](images/sql.png)
+<img width="1600" height="1203" alt="WhatsApp Image 2026-07-03 at 1 08 26 PM" src="https://github.com/user-attachments/assets/08f6e51c-1524-4e82-a964-56600e9beba1" />
 
 ## Query Result
 
-![Result](images/result.png)
+<img width="1600" height="1331" alt="WhatsApp Image 2026-07-03 at 1 09 36 PM" src="https://github.com/user-attachments/assets/51b56bcf-1913-4f3f-9aab-3dcd54b3adfa" />
+
 
 ## Charts
 
-![Chart](images/chart.png)
+<img width="1600" height="1454" alt="WhatsApp Image 2026-07-03 at 1 12 08 PM" src="https://github.com/user-attachments/assets/f8a8598a-d997-43c5-9b10-ba48d1dddd19" />
 
-## Export Report
 
-![Report](images/report.png)
-```
 
----
 
 # 📈 Workflow
 
