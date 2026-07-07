@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+.env
+*.pyc
+charts/
+exports/
+.cache/
+requirements.txt.txt
+screenshots/
+langchain_integration_files/
+rag/vector_index/
