@@ -4,9 +4,11 @@ Execute SQL queries on PostgreSQL.
 """
 
 import logging
+import os
 import re
 
 import psycopg2
+from urllib.parse import urlparse
 
 from practice.config import (
     DB_CONFIG,
@@ -46,7 +48,22 @@ def execute_sql(sql):
     cursor = None
 
     try:
-        conn = psycopg2.connect(**DB_CONFIG)
+        database_url = os.getenv("DATABASE_URL")
+
+        if database_url:
+            url = urlparse(database_url)
+
+            conn = psycopg2.connect(
+                host=url.hostname,
+                port=url.port,
+                database=url.path.lstrip("/"),
+                user=url.username,
+                password=url.password,
+                sslmode="require"
+            )
+        else:
+            conn = psycopg2.connect(**DB_CONFIG)
+
         conn.set_session(readonly=True, autocommit=False)
         cursor = conn.cursor()
 
@@ -54,6 +71,7 @@ def execute_sql(sql):
             "SET LOCAL statement_timeout = %s;",
             (DB_STATEMENT_TIMEOUT_MS,)
         )
+
         cursor.execute(sql)
 
         columns = [desc[0] for desc in cursor.description] if cursor.description else []
@@ -74,7 +92,6 @@ def execute_sql(sql):
 
         if conn:
             conn.close()
-
 
 if __name__ == "__main__":
 
